@@ -13,7 +13,7 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=OpenSans|Roboto|Montserrat"
     />
-    <!--FontAwesome-->
+    <!-- FontAwesome -->
     <link rel="stylesheet" href="./css/all.css" />
   </head>
 
@@ -22,8 +22,21 @@
       <a href="">CJ Akkuec</a>
       <nav>
         <ul>
-          <li><a href="#contact-a">Contact</a></li>
+          <li><a href="#contact-a">Dropdown</a></li>
           <li><a href="#bio-a">Biography</a></li>
+          <li><a href="#gal-a">Gallery</a></li>
+          <li>
+            <!-- Dark Mode Toggle-->
+            <button class="suncloud" onclick="myFunction()">
+              <i class="fas fa-cloud-sun"></i>
+            </button>
+            <script>
+              function myFunction() {
+                var element = document.body;
+                element.classList.toggle("dark-mode-body");
+              }
+            </script>
+          </li>
         </ul>
       </nav>
     </header>
@@ -46,111 +59,111 @@
             omnis enim saepe quas, dolorum eos illo ipsam eaque repellat
             pariatur.
           </p>
-          <div class="info-box" id="contact-a">
-            <p>
-              Mobile<br />
-              1234/5678910
-            </p>
 
-            <p>
-              Mail<br />
-              bla@bla.com
-            </p>
-          </div>
-          <p class="acc-p">@myaccount</p>
-          <a href="https://twitter.com/CJAkkuec"></a><i class="fab fa-twitter"></i></a>
-          <a href="https://github.com/CJAkkuec/"></a><i class="fab fa-github"></i></a>
-          <a href="https://codepen.io/cjakkuec"></a><i class="fab fa-codepen"></i>/a>
+          <p class="acc-p">@myaccounts</p>
+          <a href="https://twitter.com/CJAkkuec" target="_blank"
+            ><i class="fab fa-twitter bounce"></i
+          ></a>
+          <a href="https://github.com/CJAkkuec/" target="_blank"
+            ><i class="fab fa-github bounce"></i
+          ></a>
+          <a href="https://codepen.io/cjakkuec" target="_blank"
+            ><i class="fab fa-codepen bounce"></i
+          ></a>
         </article>
 
         <div class="skill-tags">
-          <h2>Skills</h2>
+          <h3>Skills</h3>
           <ul>
-            <li><a href="">Reading</a></li>
-            <li><a href="">Listening</a></li>
-            <li><a href="">Talking</a></li>
-            <li><a href="">Walking</a></li>
-            <li><a href="">Feeling</a></li>
+            <li>
+              <a href="">HTML <i class="fab alt fa-html5"></i></a>
+            </li>
+            <li>
+              <a href="">CSS <i class="fab alt fa-css3-alt"></i></a>
+            </li>
+            <li>
+              <a href=""><i class="fab alt fa-bootstrap"></i>ootstrap</a>
+            </li>
+            <li>
+              <a href=""><i class="fab alt fa-git"></i></a>
+            </li>
+            <li>
+              <a href="">Javascript <i class="fab alt fa-js-square"></i></a>
+            </li>
           </ul>
         </div>
         <div class="int-tags">
-          <h2>Interests</h2>
+          <h3>Interests</h3>
           <ul>
-            <li><a href="">Reading</a></li>
-            <li><a href="">Listening</a></li>
-            <li><a href="">Talking</a></li>
-            <li><a href="">Walking</a></li>
-            <li><a href="">Feeling</a></li>
+            <li><a href="">Coding</a></li>
+            <li><a href="">Design</a></li>
+            <li><a href="">Art</a></li>
+            <li><a href="">Music</a></li>
+            <li><a href="">Games</a></li>
           </ul>
         </div>
-      </div>
-
-      <div class="info-box" id="contact-a">
-        <p>
-          Mobile<br />
-          1234/5678910
-        </p>
-
-        <p>
-          Mail<br />
-          bla@bla.com
-        </p>
       </div>
 
       <div class="spacer"></div>
 
-      <h2>Something</h2>
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam, amet
-        aspernatur, deleniti molestiae delectus similique beatae sunt voluptatem
-        eveniet et repudiandae deserunt vero nostrum, sed quos nam enim quod
-        cupiditate.
-      </p>
+      <div class="wrapper-1">
+        <div>
+          <h3>Something</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
+            amet aspernatur, deleniti molestiae delectus similique beatae sunt
+            voluptatem eveniet et repudiandae deserunt vero nostrum, sed quos
+            nam enim quod cupiditate.
+          </p>
 
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
-        iure sapiente illo sint exercitationem alias fugit, tenetur debitis
-        deserunt non quo nesciunt numquam ad obcaecati eveniet tempora incidunt,
-        corrupti at.
-      </p>
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+            iure sapiente illo sint exercitationem alias fugit, tenetur debitis
+            deserunt non quo nesciunt numquam ad obcaecati eveniet tempora
+            incidunt, corrupti at.
+          </p>
+        </div>
 
-      <h2>Biography</h2>
-
-      <table class="bio" id="bio-a">
-        <tr>
-          <td><a href="">1234</a></td>
-          <td>
-            <a href=""
-              >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a
-            >
-          </td>
-        </tr>
-        <tr></tr>
-        <tr>
-          <td><a href="">1234</a></td>
-          <td>
-            <a href=""
-              >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td><a href="">1234</a></td>
-          <td>
-            <a href=""
-              >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a
-            >
-          </td>
-        </tr>
-        <tr>
-          <td><a href="">1234</a></td>
-          <td>
-            <a href=""
-              >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a
-            >
-          </td>
-        </tr>
-      </table>
+        <div>
+          <a class="bio-anchor" id="bio-a"></a>
+          <h3>Biography</h3>
+          <table class="bio">
+            <tr>
+              <td><a href="">1234</a></td>
+              <td>
+                <a href=""
+                  >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a
+                >
+              </td>
+            </tr>
+            <tr></tr>
+            <tr>
+              <td><a href="">1234</a></td>
+              <td>
+                <a href=""
+                  >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td><a href="">1234</a></td>
+              <td>
+                <a href=""
+                  >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td><a href="">1234</a></td>
+              <td>
+                <a href=""
+                  >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a
+                >
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
 
       <div class="spacer"></div>
 
@@ -195,16 +208,40 @@
         </article>
       </section>
 
-      <footer>
-        <ul>
-          <li><a href="">Boop</a></li>
-          <li><a href="">Beep</a></li>
-        </ul>
-      </footer>
+      <div class="spacer"></div>
 
-      <a href="">UP</a>
+      <h3>Gallery</h3>
 
-      <script src=""></script>
+      <section class="gallery" id="gal-a">
+        <div class="gallery-img">
+          <img src="./images/IMG_20190217_122139.jpeg" alt="" />
+        </div>
+        <div class="gallery-img">
+          <img src="./images/IMG_20190217_131541.jpeg" alt="" />
+        </div>
+        <div class="gallery-img">
+          <img src="./images/IMG_20180715_202900.jpeg" alt="" />
+        </div>
+        <div class="gallery-img">
+          <img src="./images/IMG_20190217_1703051.jpg" alt="" />
+        </div>
+        <div class="gallery-img">
+          <img src="./images/IMG_20190217_133116.jpeg" alt="" />
+        </div>
+      </section>
+
+      <div class="spacer"></div>
+
+      <a href=""><i class="fas fab fa-arrow-up"></i></a>
     </main>
+    <footer>
+      <ul>
+        <li><a href="">Links</a></li>
+        <li><a href="">FAQ</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Something</a></li>
+        <li><a href="">Another Thing</a></li>
+      </ul>
+    </footer>
   </body>
 </html>
