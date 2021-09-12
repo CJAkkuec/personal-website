@@ -12,29 +12,36 @@
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css?family=OpenSans|Roboto|Montserrat"
+      id="theme-link"
     />
     <!-- FontAwesome -->
     <link rel="stylesheet" href="./css/all.css" />
   </head>
 
   <body>
-    <header>
+    <header id="start-a">
       <a href="">CJ Akkuec</a>
       <nav>
         <ul>
-          <li><a href="#contact-a">Dropdown</a></li>
+          <li><a href="#contact-a">Contact</a></li>
           <li><a href="#bio-a">Biography</a></li>
           <li><a href="#gal-a">Gallery</a></li>
           <li>
             <!-- Dark Mode Toggle-->
-            <button class="suncloud" onclick="myFunction()">
+            <button class="btn-toggle suncloud">
               <i class="fas fa-cloud-sun"></i>
             </button>
             <script>
-              function myFunction() {
-                var element = document.body;
-                element.classList.toggle("dark-mode-body");
-              }
+              const btn = document.querySelector(".btn-toggle");
+              const theme = document.querySelector("#theme-link");
+              btn.addEventListener("click", function () {
+                // Swap out the URL for the different stylesheets
+                if (theme.getAttribute("href") == "style.css") {
+                  theme.href = "dark-theme.css";
+                } else {
+                  theme.href = "style.css";
+                }
+              });
             </script>
           </li>
         </ul>
@@ -232,7 +239,7 @@
 
       <div class="spacer"></div>
 
-      <a href=""><i class="fas fab fa-arrow-up"></i></a>
+      <a href="#start-a"><i class="fas fab fa-arrow-up"></i></a>
     </main>
     <footer>
       <ul>

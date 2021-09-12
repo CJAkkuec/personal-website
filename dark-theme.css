@@ -1,18 +1,18 @@
 body {
   margin: 0;
-  color: #2c3236;
+  color: rgb(200, 200, 200);
   background: rgb(175, 175, 175);
   background: linear-gradient(
     180deg,
-    rgba(175, 175, 175, 1) 0%,
-    rgba(163, 205, 213, 1) 100%
+    rgb(46, 46, 46) 0%,
+    rgb(93, 116, 121) 100%
   );
 }
 
 header {
   -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3);
-  background: rgba(255, 255, 255, 0.5);
+  background: rgba(46, 46, 46, 0.5);
   -webkit-backdrop-filter: blur(5px);
   backdrop-filter: blur(5px);
   margin: auto;
@@ -27,7 +27,7 @@ header {
 
 header a {
   text-decoration: none;
-  color: #2c3236;
+  color: rgb(200, 200, 200);
   font-weight: 300;
   font-size: 2rem;
   padding-left: 8%;
@@ -47,7 +47,7 @@ header a {
 
 main {
   display: block;
-  background: #fff;
+  background: rgb(46, 46, 46);
   -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3);
   margin: auto;
@@ -81,7 +81,7 @@ nav a {
   display: block;
   font-size: 1rem;
   font-weight: lighter;
-  color: #2c3236;
+  color: rgb(15, 15, 15);
   text-decoration: none;
   padding: 0;
 
@@ -89,7 +89,7 @@ nav a {
 }
 
 nav a:hover {
-  color: #fff;
+  color: rgb(200, 200, 200);
   transform: scale(1.1);
 }
 
@@ -124,19 +124,19 @@ nav a:hover {
 .int-tags li {
   list-style-type: none;
   margin: 0 0.5rem 0.5rem 0;
-  background-color: rgb(180, 180, 180);
+  background-color: rgb(75, 75, 75);
   border-radius: 10px;
   padding: 0.5rem;
 }
 
 .skill-tags li:nth-child(odd),
 .int-tags li:nth-child(odd) {
-  background-color: rgb(125, 125, 125);
+  background-color: rgb(60, 60, 60);
 }
 
 .skill-tags a,
 .int-tags a {
-  color: #fff;
+  color: rgb(200, 200, 200);
   font-weight: 300;
   text-decoration: none;
 
@@ -157,7 +157,7 @@ section {
 article {
   padding: 1rem;
   margin-bottom: 1rem;
-  background: #fff;
+  background: rgb(46, 46, 46);
   -webkit-box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3);
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.3);
   border-radius: 25px;
@@ -220,7 +220,7 @@ article p {
 .bio {
   margin: 0;
   /* background: #9ea68f;
-  border-radius: 10px; */
+    border-radius: 10px; */
 }
 .bio td {
   padding-bottom: 1.5rem;
@@ -233,7 +233,7 @@ article p {
 
 .bio a {
   text-decoration: none;
-  color: #2c3236;
+  color: rgb(200, 200, 200);
 }
 
 .pfp {
@@ -252,7 +252,7 @@ h3 {
 }
 
 .fab {
-  color: #9ea68f;
+  color: rgb(200, 200, 200);
 }
 
 .bounce:hover {
@@ -310,7 +310,7 @@ footer {
   margin: auto;
   margin-top: 0;
   padding: 1rem 2rem 1rem 2rem;
-  background: rgb(163, 205, 213);
+  background: rgb(93, 116, 121);
 }
 
 footer ul {
@@ -328,11 +328,11 @@ footer a {
   font-family: "Open Sans", "Helvetica Neue", sans-serif;
   font-size: 0.7rem;
   text-decoration: none;
-  color: #fff;
+  color: rgb(200, 200, 200);
 }
 
 .alt {
-  color: #fff;
+  color: rgb(200, 200, 200);
 }
 
 .gallery {
@@ -371,9 +371,9 @@ a.bio-anchor {
 .suncloud {
   background: none;
   border: none;
-  color: #2c3236;
+  color: rgb(46, 46, 46);
 }
 
 .suncloud:hover {
-  color: #fff;
+  color: rgb(200, 200, 200);
 }
