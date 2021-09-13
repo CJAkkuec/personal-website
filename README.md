@@ -7,3 +7,5 @@ D.h. es reicht einfach styles.css anzusehen.
 
 Und sonst ist es noch nicht durchkommentiert, wird also vielleicht etwas unübersichtlich. : )
 Und der Code ist momentan nicht mobile first.
+
+😂
