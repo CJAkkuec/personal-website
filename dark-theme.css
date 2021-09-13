@@ -71,6 +71,7 @@ nav {
 nav ul {
   display: flex;
   justify-content: flex-start;
+  flex-wrap: wrap;
   list-style-type: none;
   padding-left: calc(8% - 0.5rem);
   margin: 0;
