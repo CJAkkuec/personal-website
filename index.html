@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>My Personal Website</title>
+    <meta name="description" content="A simple personal website." />
+    <meta name="author" content="CJAkkuec" />
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=OpenSans|Roboto|Montserrat"
+      id="theme-link"
+    />
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="./css/all.css" />
+  </head>
+
+  <body>
+    <header id="start-a">
+      <a href="">CJ Akkuec</a>
+      <nav>
+        <ul>
+          <li><a href="#bio-a">Biography</a></li>
+          <li><a href="#gal-a">Gallery</a></li>
+          <li><a href="#con-a">Contact</a></li>
+          <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Dropdown</a>
+            <div class="dropdown-content">
+              <a href="#">Link 1</a>
+              <a href="#">Link 2</a>
+              <a href="#">Link 3</a>
+            </div>
+          </li>
+          <li>
+            <!-- Dark Mode Toggle-->
+            <button class="btn-toggle suncloud">
+              <i class="fas fa-cloud-sun"></i>
+            </button>
+            <script>
+              const btn = document.querySelector(".btn-toggle");
+              const theme = document.querySelector("#theme-link");
+              btn.addEventListener("click", function () {
+                if (theme.getAttribute("href") == "style.css") {
+                  theme.href = "dark-theme.css";
+                } else {
+                  theme.href = "style.css";
+                }
+              });
+            </script>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="headerbg"></div>
+    <main>
+      <!-- Content -->
+      <div class="wrapper">
+        <article>
+          <img
+            class="pfp"
+            src="images/90191489.jpeg"
+            alt="profile-pic"
+            height="auto"
+            width="50%"
+          />
+          <h5>About me</h5>
+          <p>
+            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veritatis
+            asperiores velit cum, numquam, fuga tempora culpa sequi eius harum
+            omnis enim saepe quas, dolorum eos illo ipsam eaque repellat
+            pariatur.
+          </p>
+
+          <p class="acc-p">@myaccounts</p>
+          <a href="https://twitter.com/CJAkkuec" target="_blank"
+            ><i class="fab fa-twitter bounce"></i
+          ></a>
+          <a href="https://github.com/CJAkkuec/" target="_blank"
+            ><i class="fab fa-github bounce"></i
+          ></a>
+          <a href="https://codepen.io/cjakkuec" target="_blank"
+            ><i class="fab fa-codepen bounce"></i
+          ></a>
+        </article>
+
+        <div class="skill-tags">
+          <h3>Skills</h3>
+          <ul>
+            <li>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/HTML"
+                target="_blank"
+                >HTML <i class="fab alt fa-html5"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/CSS"
+                target="_blank"
+                >CSS <i class="fab alt fa-css3-alt"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://getbootstrap.com/docs/5.1/getting-started/introduction/"
+                target="_blank"
+                ><i class="fab alt fa-bootstrap"></i>ootstrap</a
+              >
+            </li>
+            <li>
+              <a href="https://git-scm.com/doc"
+                ><i class="fab alt fa-git"></i
+              ></a>
+            </li>
+            <li>
+              <a
+                href="https://developer.mozilla.org/en-US/docs/Web/JavaScript"
+                target="_blank"
+                >Javascript <i class="fab alt fa-js-square"></i
+              ></a>
+            </li>
+          </ul>
+        </div>
+        <div class="int-tags">
+          <h3>Interests</h3>
+          <ul>
+            <li><a href="">Coding</a></li>
+            <li><a href="">Design</a></li>
+            <li><a href="">Art</a></li>
+            <li><a href="">Music</a></li>
+            <li><a href="">Games</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="spacer"></div>
+
+      <div class="wrapper-1">
+        <div>
+          <h3>Something</h3>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
+            amet aspernatur, deleniti molestiae delectus similique beatae sunt
+            voluptatem eveniet et repudiandae deserunt vero nostrum, sed quos
+            nam enim quod cupiditate.
+          </p>
+
+          <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Asperiores
+            iure sapiente illo sint exercitationem alias fugit, tenetur debitis
+            deserunt non quo nesciunt numquam ad obcaecati eveniet tempora
+            incidunt, corrupti at.
+          </p>
+        </div>
+
+        <div>
+          <a class="bio-anchor" id="bio-a"></a>
+          <h3>Biography</h3>
+          <table class="bio">
+            <tr>
+              <td><a href="">1234</a></td>
+              <td>
+                <a href=""
+                  >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a
+                >
+              </td>
+            </tr>
+            <tr></tr>
+            <tr>
+              <td><a href="">1234</a></td>
+              <td>
+                <a href=""
+                  >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td><a href="">1234</a></td>
+              <td>
+                <a href=""
+                  >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a
+                >
+              </td>
+            </tr>
+            <tr>
+              <td><a href="">1234</a></td>
+              <td>
+                <a href=""
+                  >Lorem ipsum dolor sit, amet consectetur adipisicing elit.</a
+                >
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+      <div class="spacer"></div>
+
+      <section>
+        <article>
+          <img
+            src="images/icon-github.png"
+            alt="github-icon"
+            height="auto"
+            width="auto"
+          />
+          <h5>GITHUB</h5>
+          <p>See my cool Repos</p>
+          <p class="acc-p">@myaccount</p>
+          <div class="arrow"></div>
+        </article>
+
+        <article>
+          <img
+            src="images/icon-twitter.png"
+            alt="twitter-icon"
+            height="auto"
+            width="auto"
+          />
+          <h5>TWITTER</h5>
+          <p>See my cool Repos</p>
+          <p class="acc-p">@myaccount</p>
+          <div class="arrow"></div>
+        </article>
+
+        <article>
+          <img
+            src="images/icon-twitter.png"
+            alt="twitter-icon"
+            height="auto"
+            width="auto"
+          />
+          <h5>TWITTER</h5>
+          <p>See my cool Repos</p>
+          <p class="acc-p">@myaccount</p>
+          <div class="arrow"></div>
+        </article>
+      </section>
+
+      <div class="spacer"></div>
+
+      <a class="gal-anchor" id="gal-a"></a>
+
+      <h3>Gallery</h3>
+
+      <section class="gallery">
+        <div class="gallery-img">
+          <img src="./images/IMG_20190217_122139.jpeg" alt="" />
+        </div>
+        <div class="gallery-img">
+          <img src="./images/IMG_20190217_131541.jpeg" alt="" />
+        </div>
+        <div class="gallery-img">
+          <img src="./images/IMG_20180715_202900.jpeg" alt="" />
+        </div>
+        <div class="gallery-img">
+          <img src="./images/IMG_20190217_1703051.jpg" alt="" />
+        </div>
+        <div class="gallery-img">
+          <img src="./images/IMG_20190217_133116.jpeg" alt="" />
+        </div>
+        <div class="gallery-img">
+          <img src="./images/IMG_20180716_103957.jpeg" alt="" />
+        </div>
+      </section>
+
+      <div class="spacer"></div>
+
+      <a class="con-anchor" id="con-a"></a>
+
+      <div class="contact-wrapper">
+        <h3>Contact</h3>
+        <div class="contact-data">
+          <div>
+            <h4>Phone</h4>
+            <p><i class="fas fab fa-phone"></i> 01234/5678919</p>
+          </div>
+          <div>
+            <h4>Email</h4>
+            <p>
+              <i class="fas fab fa-envelope-square"></i>
+              cjakkuec[at]gmail[dot]com
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="spacer"></div>
+
+      <a href="#start-a"><i class="fas fab fa-arrow-up"></i></a>
+    </main>
+    <footer>
+      <ul>
+        <li><a href="">Links</a></li>
+        <li><a href="">FAQ</a></li>
+        <li><a href="">Contact</a></li>
+        <li><a href="">Something</a></li>
+        <li><a href="">Another Thing</a></li>
+      </ul>
+    </footer>
+  </body>
+</html>
